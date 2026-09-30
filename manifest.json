@@ -2,16 +2,16 @@
   "name": "KEYRADDIIN EDUCATION APP",
   "short_name": "KEYRADDIIN",
   "description": "KEYRADDIIN EDUCATION APP - Central education, exam information and student services platform.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "/KEYRADDIIN-EDUCATION-APP/",
+  "scope": "/KEYRADDIIN-EDUCATION-APP/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#0d47a1",
   "icons": [
     {
-      "src": "assets/logo.png",
-      "sizes": "any",
+      "src": "/KEYRADDIIN-EDUCATION-APP/assets/logo.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
     }
