@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="KEYRADDIIN EDUCATION APP - Central education, exam information and student services platform."
+    >
+
+    <meta
+        name="theme-color"
+        content="#0d47a1"
+    >
+
+    <meta
+        name="mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-capable"
+        content="yes"
+    >
+
+    <meta
+        name="apple-mobile-web-app-status-bar-style"
+        content="default"
+    >
+
+    <meta
+        name="apple-mobile-web-app-title"
+        content="KEYRADDIIN EDUCATION"
+    >
+
+    <!-- Favicon / App Icon -->
+    <link
+        rel="icon"
+        type="image/png"
+        href="assets/logo.png"
+    >
+
+    <link
+        rel="apple-touch-icon"
+        href="assets/logo.png"
+    >
+
+    <!-- PWA Manifest -->
+    <link
+        rel="manifest"
+        href="manifest.json"
+    >
+
+    <title>KEYRADDIIN EDUCATION APP</title>
+
+    <!-- Main CSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <!-- =====================================
+         APP HEADER
+    ====================================== -->
+
+    <header class="app-header">
+
+        <div class="brand">
+
+            <div class="brand-icon">
+                K
+            </div>
+
+            <div>
+
+                <h1>
+                    KEYRADDIIN
+                </h1>
+
+                <span>
+                    EDUCATION APP
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <button
+            class="profile-button"
+            id="profileButton"
+            aria-label="Profile"
+        >
+            👤
+        </button>
+
+    </header>
+
+
+
+    <!-- =====================================
+         MAIN CONTENT
+    ====================================== -->
+
+    <main>
+
+        <!-- =================================
+             WELCOME
+        ================================== -->
+
+        <section class="welcome-section">
+
+            <p class="welcome-small">
+                Welcome to
+            </p>
+
+            <h2>
+                KEYRADDIIN EDUCATION APP
+            </h2>
+
+            <p>
+                Your central place for KEYRADDIIN
+                education, exam information and
+                student services.
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================
+             GRADES
+        ================================== -->
+
+        <section class="section">
+
+            <div class="section-title">
+
+                <h2>
+                    Your Grade
+                </h2>
+
+                <span>
+                    7–12
+                </span>
+
+            </div>
+
+
+            <div class="grade-grid">
+
+                <button
+                    class="grade-card"
+                    data-grade="7"
+                >
+
+                    <strong>
+                        Grade 7
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="grade-card"
+                    data-grade="8"
+                >
+
+                    <strong>
+                        Grade 8
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="grade-card"
+                    data-grade="9"
+                >
+
+                    <strong>
+                        Grade 9
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="grade-card"
+                    data-grade="10"
+                >
+
+                    <strong>
+                        Grade 10
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="grade-card"
+                    data-grade="11"
+                >
+
+                    <strong>
+                        Grade 11
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="grade-card"
+                    data-grade="12"
+                >
+
+                    <strong>
+                        Grade 12
+                    </strong>
+
+                    <span>
+                        View Information
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             EXAM CENTER
+        ================================== -->
+
+        <section class="section">
+
+            <div class="section-title">
+
+                <h2>
+                    Exam Center
+                </h2>
+
+                <span>
+                    Grade 7–12
+                </span>
+
+            </div>
+
+
+            <div class="feature-list">
+
+
+                <!-- MAIN EXAM CENTER -->
+
+                <button
+                    class="feature-card exam-main-card"
+                    id="examCenterButton"
+                >
+
+                    <span class="feature-icon">
+                        📝
+                    </span>
+
+
+                    <span>
+
+                        <strong>
+                            Exam Center
+                        </strong>
+
+                        <small>
+                            Find and take available exams
+                        </small>
+
+                    </span>
+
+
+                    <b>
+                        ›
+                    </b>
+
+                </button>
+
+
+
+                <!-- EXAM INFORMATION -->
+
+                <button
+                    class="feature-card exam-info-card"
+                    id="examInformationButton"
+                >
+
+                    <span class="feature-icon">
+                        📋
+                    </span>
+
+
+                    <span>
+
+                        <strong>
+                            Exam Information
+                        </strong>
+
+                        <small>
+                            Registration and exam information
+                        </small>
+
+                    </span>
+
+
+                    <b>
+                        ›
+                    </b>
+
+                </button>
+
+
+
+                <!-- RESULTS -->
+
+                <button
+                    class="feature-card"
+                    id="resultsButton"
+                >
+
+                    <span class="feature-icon">
+                        🏆
+                    </span>
+
+
+                    <span>
+
+                        <strong>
+                            My Results
+                        </strong>
+
+                        <small>
+                            View your exam results
+                        </small>
+
+                    </span>
+
+
+                    <b>
+                        ›
+                    </b>
+
+                </button>
+
+
+
+                <!-- ANNOUNCEMENTS -->
+
+                <button
+                    class="feature-card"
+                    id="announcementsButton"
+                >
+
+                    <span class="feature-icon">
+                        📢
+                    </span>
+
+
+                    <span>
+
+                        <strong>
+                            Announcements
+                        </strong>
+
+                        <small>
+                            Latest KEYRADDIIN updates
+                        </small>
+
+                    </span>
+
+
+                    <b>
+                        ›
+                    </b>
+
+                </button>
+
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =====================================
+         BOTTOM NAVIGATION
+    ====================================== -->
+
+    <nav
+        class="bottom-navigation"
+        aria-label="Main navigation"
+    >
+
+        <button
+            class="nav-item active"
+            data-page="home"
+        >
+
+            <span>
+                ⌂
+            </span>
+
+            <small>
+                Home
+            </small>
+
+        </button>
+
+
+        <button
+            class="nav-item"
+            data-page="exams"
+        >
+
+            <span>
+                📝
+            </span>
+
+            <small>
+                Exams
+            </small>
+
+        </button>
+
+
+        <button
+            class="nav-item"
+            data-page="results"
+        >
+
+            <span>
+                🏆
+            </span>
+
+            <small>
+                Results
+            </small>
+
+        </button>
+
+
+        <button
+            class="nav-item"
+            data-page="profile"
+        >
+
+            <span>
+                👤
+            </span>
+
+            <small>
+                Profile
+            </small>
+
+        </button>
+
+    </nav>
+
+
+
+    <!-- =====================================
+         MAIN JAVASCRIPT
+    ====================================== -->
+
+    <script src="app.js"></script>
+
+
+
+    <!-- =====================================
+         SERVICE WORKER
+    ====================================== -->
+
+    <script>
+
+        if ("serviceWorker" in navigator) {
+
+            window.addEventListener(
+                "load",
+                function () {
+
+                    navigator.serviceWorker
+                        .register("service-worker.js")
+                        .then(function () {
+
+                            console.log(
+                                "KEYRADDIIN EDUCATION APP is ready."
+                            );
+
+                        })
+                        .catch(function (error) {
+
+                            console.log(
+                                "Service Worker registration failed:",
+                                error
+                            );
+
+                        });
+
+                }
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>
